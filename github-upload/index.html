@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillHub GitHub 上传向导</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f6f8fa;
+        }
+        .container {
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+        }
+        h1 { color: #24292e; }
+        h2 { color: #0366d6; margin-top: 30px; }
+        .step {
+            background: #f6f8fa;
+            border-left: 4px solid #0366d6;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .step-number {
+            display: inline-block;
+            background: #0366d6;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            margin-right: 10px;
+        }
+        code {
+            background: #f6f8fa;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        }
+        pre {
+            background: #f6f8fa;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        .btn {
+            display: inline-block;
+            background: #2ea44f;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .btn:hover { background: #2c974b; }
+        .checklist { list-style: none; }
+        .checklist li:before {
+            content: "✅ ";
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #e1e4e8;
+            border-radius: 5px;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .command-box {
+            background: #24292e;
+            color: #f6f8fa;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: "SFMono-Regular", Consolas, monospace;
+            margin: 10px 0;
+        }
+        .success { color: #28a745; }
+        .warning { color: #f39c12; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 SkillHub GitHub 上传向导</h1>
+        <p>文件已准备完成，只需 3 步即可上传到 GitHub</p>
+        
+        <h2>📦 准备状态</h2>
+        <ul class="checklist">
+            <li>32 个技能 zip 文件已准备好</li>
+            <li>README.md 已创建</li>
+            <li>.gitignore 已创建</li>
+            <li>Git 仓库已初始化</li>
+        </ul>
+        <p>位置：<code>/Users/blueblue/skillhub/github-upload/</code></p>
+        
+        <h2>上传步骤</h2>
+        
+        <div class="step">
+            <h3><span class="step-number">1</span>创建 GitHub 仓库</h3>
+            <a href="https://github.com/new" target="_blank" class="btn">前往 GitHub 创建仓库</a>
+            <p><strong>填写信息：</strong></p>
+            <ul>
+                <li><strong>Repository name:</strong> <code>skillhub-skills</code></li>
+                <li><strong>Description:</strong> <code>SkillHub AI Skills Collection - 32 professional AI skills</code></li>
+                <li><strong>Visibility:</strong> 选择 <strong>Public</strong> (公开)</li>
+                <li>❌ <strong>不要勾选</strong> "Initialize this repository with a README"</li>
+            </ul>
+            <p>然后点击 <strong>"Create repository"</strong></p>
+        </div>
+        
+        <div class="step">
+            <h3><span class="step-number">2</span>输入你的 GitHub 用户名</h3>
+            <input type="text" id="githubUsername" placeholder="你的 GitHub 用户名（例如：zhangsan）">
+            <button onclick="generateCommands()" class="btn" style="background: #0366d6;">生成命令</button>
+        </div>
+        
+        <div class="step" id="commandStep" style="display: none;">
+            <h3><span class="step-number">3</span>推送代码到 GitHub</h3>
+            <p>复制以下命令并在终端执行：</p>
+            <div class="command-box" id="commandBox"></div>
+            <p class="warning">⚠️ 上传需要 2-5 分钟，请耐心等待</p>
+        </div>
+        
+        <div class="step">
+            <h3><span class="step-number">4</span>验证上传</h3>
+            <p>上传完成后，访问你的仓库：</p>
+            <p><a href="#" id="repoLink" target="_blank" class="btn">查看仓库</a></p>
+            <p>确认所有文件都已上传：</p>
+            <ul class="checklist">
+                <li>README.md</li>
+                <li>skills/ 目录</li>
+                <li>32 个 zip 文件</li>
+            </ul>
+        </div>
+        
+        <h2>📋 下载链接格式</h2>
+        <p>上传成功后，下载链接格式为：</p>
+        <div class="command-box">https://github.com/YOUR_USERNAME/skillhub-skills/raw/main/skills/技能名.zip</div>
+        
+        <h2>⚠️ 常见问题</h2>
+        <h3>Q: 提示 "remote origin already exists"</h3>
+        <pre>git remote remove origin
+git remote add origin https://github.com/YOUR_USERNAME/skillhub-skills.git</pre>
+        
+        <h3>Q: 推送失败，权限错误</h3>
+        <ul>
+            <li>检查 Repository name 是否正确</li>
+            <li>确认你是仓库所有者</li>
+            <li>检查网络连接</li>
+        </ul>
+    </div>
+    
+    <script>
+        function generateCommands() {
+            const username = document.getElementById('githubUsername').value.trim();
+            if (!username) {
+                alert('请输入 GitHub 用户名');
+                return;
+            }
+            
+            const commands = `# 进入上传目录
+cd /Users/blueblue/skillhub/github-upload
+
+# 添加远程仓库
+git remote add origin https://github.com/${username}/skillhub-skills.git
+
+# 推送到 GitHub
+git branch -M main
+git push -u origin main
+
+echo "✅ 上传完成！"
+echo "📍 访问：https://github.com/${username}/skillhub-skills"`;
+            
+            document.getElementById('commandBox').textContent = commands;
+            document.getElementById('commandStep').style.display = 'block';
+            document.getElementById('repoLink').href = `https://github.com/${username}/skillhub-skills`;
+            document.getElementById('repoLink').textContent = `https://github.com/${username}/skillhub-skills`;
+        }
+    </script>
+</body>
+</html>
