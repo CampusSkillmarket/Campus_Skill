@@ -1,142 +1,112 @@
 # SkillHub AI Skills
 
-> 专为大学生和年轻创业者设计的 AI 技能集合
+> 🎓 专为大学生和年轻创业者打造的 AI 技能库
 
-## 📖 仓库介绍
+## 💡 这是什么？
 
-本仓库包含 32 个专业 AI 技能（Skill），覆盖学习、创业、求职、效率、开发等多个领域。每个 Skill 都是一个精心设计的 AI 助手配置，可以直接用于各种 AI 对话助手。
+这是一个 **AI 技能库**，为大学生提供即插即用的 AI 助手配置。
 
-## 🎯 使用方式
+**两个使用场景：**
 
-### 方式一：直接复制使用（推荐）
+1. **自己用** - 找到解决你日常生活、学习、求职痛点的 Skill，复制到你的 AI 助手中，立刻拥有一个懂你的私人助手
+2. **用来创业** - 基于这些 Skill 二次开发，打造你的 AI 产品或服务，服务校园市场
 
-1. 进入你想要下载的 Skill 文件夹（例如：`study-assistant-pro/`）
-2. 打开 `SKILL.md` 文件
-3. 复制全部内容
-4. 粘贴到你的 AI 助手配置中
-5. 保存后即可使用
+## 🚀 快速开始
 
-### 方式二：下载整个仓库
+### 30 秒配置你的第一个 AI 助手
 
-1. 点击仓库首页的 "Code" 按钮
-2. 选择 "Download ZIP"
-3. 解压后根据需要复制 Skill 内容
+1. **找技能** → 浏览下方场景，找到你需要的 Skill
+2. **复制内容** → 打开 Skill 文件夹中的 `SKILL.md`，全选复制
+3. **粘贴使用** → 粘贴到你的 AI 助手配置中（Qwen Code / Claude / ChatGPT 等）
 
-### 方式三：克隆仓库
+## 📂 按场景找技能
 
-```bash
-git clone https://github.com/CampusSkillmarket/skillhub-skills.git
-cd skillhub-skills
+### 📚 学习场景
+
+| 你遇到的情况 | 用这个 Skill |
+|------------|-------------|
+| 代码作业不会写、bug 调不通 | [study-assistant-pro](skills/study-assistant-pro/) |
+| 概念听不懂、需要人讲解 | [study-assistant](skills/study-assistant/) |
+| 作业太多、需要规划 | [coursework-assistant](skills/coursework-assistant/) |
+| 期末要考了、急需突击 | [final-exam-crash](skills/final-exam-crash/) |
+| 要写毕业论文了 | [thesis-assistant](skills/thesis-assistant/) |
+| 要考证、需要备考计划 | [cert-exam-prep](skills/cert-exam-prep/) |
+
+### 💼 求职场景
+
+| 你遇到的情况 | 用这个 Skill |
+|------------|-------------|
+| 不会写简历、没有亮点 | [resume-builder](skills/resume-builder/) |
+| 要面试了、很紧张 | [interview-prep](skills/interview-prep/) |
+| 不知道做什么工作 | [career-planning](skills/career-planning/) |
+| 找不到实习 | [internship-search](skills/internship-search/) |
+| 面试总挂、需要教练 | [career-coach](skills/career-coach/) |
+
+### 🚀 创业场景
+
+| 你遇到的情况 | 用这个 Skill |
+|------------|-------------|
+| 想创业、没方向 | [idea-generator](skills/idea-generator/) |
+| 有想法、需要商业计划书 | [business-plan-generator-pro](skills/business-plan-generator-pro/) |
+| 想做小红书/抖音 | [social-media-copywriter-pro](skills/social-media-copywriter-pro/) |
+| 想在校园做点小生意 | [campus-micro-startup](skills/campus-micro-startup/) |
+| 想把爱好变成钱 | [hobby-monetization](skills/hobby-monetization/) |
+
+### ⚡ 效率场景
+
+| 你遇到的情况 | 用这个 Skill |
+|------------|-------------|
+| 时间不够用、拖延症 | [time-management](skills/time-management/) |
+| 文档不会写、格式混乱 | [document-master](skills/document-master/) |
+| 想学理财但零基础 | [finance-basics](skills/finance-basics/) |
+| 社交关系处理不好 | [social-relationships](skills/social-relationships/) |
+
+### 💻 开发场景
+
+| 你遇到的情况 | 用这个 Skill |
+|------------|-------------|
+| 要做网页、不会前端 | [web-dev-assistant](skills/web-dev-assistant/) |
+| 想用 AI 写代码 | [qwen-code-2-skills](skills/qwen-code-2-skills/) |
+| 有数据、不会分析 | [data-analyst-pro](skills/data-analyst-pro/) |
+
+## 📁 文件说明
+
 ```
-
-## 📚 技能分类
-
-### 📚 学习
-
-| 技能 | 说明 | 文档 |
-|------|------|------|
-| 📚 [学业助手 Pro](skills/study-assistant-pro/) | 查看 学业助手 Pro | [SKILL.md](skills/study-assistant-pro/SKILL.md) |
-| 📖 [学业助手](skills/study-assistant/) | 查看 学业助手 | [SKILL.md](skills/study-assistant/SKILL.md) |
-| 📝 [课程作业助手](skills/coursework-assistant/) | 查看 课程作业助手 | [SKILL.md](skills/coursework-assistant/SKILL.md) |
-| ⚡ [期末突击助手](skills/final-exam-crash/) | 查看 期末突击助手 | [SKILL.md](skills/final-exam-crash/SKILL.md) |
-| 🎓 [毕业论文助手](skills/thesis-assistant/) | 查看 毕业论文助手 | [SKILL.md](skills/thesis-assistant/SKILL.md) |
-| 📜 [考证备考助手](skills/cert-exam-prep/) | 查看 考证备考助手 | [SKILL.md](skills/cert-exam-prep/SKILL.md) |
-
-### 🚀 创业
-
-| 技能 | 说明 | 文档 |
-|------|------|------|
-| 💼 [商业计划书生成器](skills/business-plan-generator-pro/) | 查看 商业计划书生成器 | [SKILL.md](skills/business-plan-generator-pro/SKILL.md) |
-| 📊 [商业计划书](skills/business-plan-generator/) | 查看 商业计划书 | [SKILL.md](skills/business-plan-generator/SKILL.md) |
-| 📱 [社交媒体爆款文案](skills/social-media-copywriter-pro/) | 查看 社交媒体爆款文案 | [SKILL.md](skills/social-media-copywriter-pro/SKILL.md) |
-| ✍️ [社交媒体文案](skills/social-media-copywriter/) | 查看 社交媒体文案 | [SKILL.md](skills/social-media-copywriter/SKILL.md) |
-| 💡 [创意脑暴伙伴](skills/idea-generator/) | 查看 创意脑暴伙伴 | [SKILL.md](skills/idea-generator/SKILL.md) |
-| 🏫 [校园微创业助手](skills/campus-micro-startup/) | 查看 校园微创业助手 | [SKILL.md](skills/campus-micro-startup/SKILL.md) |
-| 💰 [爱好变现助手](skills/hobby-monetization/) | 查看 爱好变现助手 | [SKILL.md](skills/hobby-monetization/SKILL.md) |
-| 🎬 [自媒体创业助手](skills/social-media-startup/) | 查看 自媒体创业助手 | [SKILL.md](skills/social-media-startup/SKILL.md) |
-
-### 💼 求职
-
-| 技能 | 说明 | 文档 |
-|------|------|------|
-| 🎯 [求职面试教练](skills/career-coach/) | 查看 求职面试教练 | [SKILL.md](skills/career-coach/SKILL.md) |
-| 📄 [简历优化师](skills/resume-builder/) | 查看 简历优化师 | [SKILL.md](skills/resume-builder/SKILL.md) |
-| 🎤 [面试准备助手](skills/interview-prep/) | 查看 面试准备助手 | [SKILL.md](skills/interview-prep/SKILL.md) |
-| 🔍 [求职搜索助手](skills/job-search/) | 查看 求职搜索助手 | [SKILL.md](skills/job-search/SKILL.md) |
-| 🗺️ [职业规划师](skills/career-planning/) | 查看 职业规划师 | [SKILL.md](skills/career-planning/SKILL.md) |
-| 🏢 [实习搜索助手](skills/internship-search/) | 查看 实习搜索助手 | [SKILL.md](skills/internship-search/SKILL.md) |
-
-### ⚡ 效率
-
-| 技能 | 说明 | 文档 |
-|------|------|------|
-| 📄 [文档处理大师](skills/document-master/) | 查看 文档处理大师 | [SKILL.md](skills/document-master/SKILL.md) |
-| 📝 [Word 文档写作助手](skills/word-document-writer/) | 查看 Word 文档写作助手 | [SKILL.md](skills/word-document-writer/SKILL.md) |
-| ⚡ [效率工具集合](skills/productivity-toolkit/) | 查看 效率工具集合 | [SKILL.md](skills/productivity-toolkit/SKILL.md) |
-| ⏰ [时间管理师](skills/time-management/) | 查看 时间管理师 | [SKILL.md](skills/time-management/SKILL.md) |
-| 🤝 [社交关系助手](skills/social-relationships/) | 查看 社交关系助手 | [SKILL.md](skills/social-relationships/SKILL.md) |
-| 📈 [理财入门助手](skills/finance-basics/) | 查看 理财入门助手 | [SKILL.md](skills/finance-basics/SKILL.md) |
-
-### 💻 开发
-
-| 技能 | 说明 | 文档 |
-|------|------|------|
-| 💻 [网页开发助手](skills/web-dev-assistant/) | 查看 网页开发助手 | [SKILL.md](skills/web-dev-assistant/SKILL.md) |
-| 🤖 [Qwen Code 技能](skills/qwen-code-2-skills/) | 查看 Qwen Code 技能 | [SKILL.md](skills/qwen-code-2-skills/SKILL.md) |
-| 🔧 [Qwen Code 包装器](skills/qwen-code-skill-wrapper/) | 查看 Qwen Code 包装器 | [SKILL.md](skills/qwen-code-skill-wrapper/SKILL.md) |
-| 📊 [数据分析专家](skills/data-analyst-pro/) | 查看 数据分析专家 | [SKILL.md](skills/data-analyst-pro/SKILL.md) |
-
-### 📣 营销
-
-| 技能 | 说明 | 文档 |
-|------|------|------|
-| 🌍 [跨境出海助手](skills/global-business-assistant/) | 查看 跨境出海助手 | [SKILL.md](skills/global-business-assistant/SKILL.md) |
-| ⭐ [个人品牌打造师](skills/personal-branding/) | 查看 个人品牌打造师 | [SKILL.md](skills/personal-branding/SKILL.md) |
+skillhub/
+├── skills/                    # 所有 Skill 都在这里
+│   ├── study-assistant/       # 一个 Skill 文件夹
+│   │   ├── SKILL.md          # 技能配置（复制这个！）
+│   │   └── README.md         # 使用说明
+│   └── ...
+├── README.md                  # 本文件
+└── LICENSE                    # MIT 许可证
+```
 
 ## ❓ 常见问题
 
-### Q: 如何使用这些 Skill？
+**Q: 这些 Skill 怎么用？**
+> 每个 Skill 文件夹里有一个 `SKILL.md` 文件，复制里面的内容，粘贴到你的 AI 助手配置中即可。
 
-每个 Skill 文件夹中包含：
-- `SKILL.md` - 主要的技能配置文件，复制内容到 AI 助手即可使用
-- `README.md` - 该技能的详细说明和下载链接
+**Q: 支持哪些 AI 助手？**
+> Qwen Code、Claude、ChatGPT 等支持自定义配置的 AI 助手都可以用。
 
-### Q: 支持哪些 AI 助手？
+**Q: 可以修改吗？**
+> 当然可以！MIT 许可证，随便改、随便用、可以商用。
 
-本仓库的 Skill 适用于各种 AI 对话助手，包括：
-- Qwen Code
-- Claude
-- ChatGPT
-- 其他支持自定义配置的 AI 助手
-
-### Q: 如何选择合适的 Skill？
-
-1. 根据你的需求查看对应分类
-2. 阅读 Skill 的 README.md 了解详细功能
-3. 查看 SKILL.md 中的使用示例
-4. 选择最适合你场景的 Skill
-
-### Q: 可以修改 Skill 内容吗？
-
-当然可以！本仓库采用 MIT 许可证，你可以：
-- 自由修改 Skill 内容
-- 分享给其他人
-- 用于商业用途
+**Q: 怎么用这个创业？**
+> 1. 选一个你熟悉的场景
+> 2. 基于 Skill 二次开发，做成产品
+> 3. 服务校园里的其他同学
+> 4. 收费或免费引流都可以
 
 ## 📄 许可证
 
-MIT License - 详见 [LICENSE](LICENSE)
+MIT License - 想怎么用就怎么用
 
 ## 🤝 贡献
 
-欢迎提交 Issue 和 Pull Request 来改进这些 Skill！
-
-## 📞 联系方式
-
-- 📧 Email: your-email@example.com
-- 🐦 Twitter: @your-twitter
-- 💬 GitHub Issues: [提问](https://github.com/CampusSkillmarket/skillhub-skills/issues)
+欢迎提 Issue 和 PR，一起让 SkillHub 更好！
 
 ---
 
-© 2026 SkillHub. All rights reserved.
+© 2026 SkillHub. Built for students, by students.
