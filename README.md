@@ -105,6 +105,7 @@ Qwen Code、Claude、ChatGPT 等支持自定义配置的都可以。
 
 MIT License - 想怎么用就怎么用
 
+有有趣的Skill，请投稿至:gongxuelan.gxl@alibaba-inc.com
 ---
 
 © 2026 SkillHub. Built for students, by students.
