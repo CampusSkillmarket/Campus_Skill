@@ -105,7 +105,7 @@ Qwen Code、Claude、ChatGPT 等支持自定义配置的都可以。
 
 MIT License - 想怎么用就怎么用
 
-##投稿
+## 投稿
 
 有趣的Skill，请投稿至:gongxuelan.gxl@alibaba-inc.com
 
