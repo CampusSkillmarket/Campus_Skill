@@ -10,21 +10,21 @@
 
 ### 方式一：在线查看 SKILL.md（推荐）
 
-1. 点击 [SKILL.md](https://github.com/CampusSkillmarket/skillhub-skills/blob/main/skills/qwen-code-skill-wrapper/SKILL.md) 查看完整内容
+1. 点击 [SKILL.md](https://github.com/CampusSkillmarket/Campus_Skill/blob/main/skills/qwen-code-skill-wrapper/SKILL.md) 查看完整内容
 2. 复制全部内容
 3. 粘贴到你的 AI 助手配置中
 
 ### 方式二：下载 ZIP 文件
 
-1. 点击下载 [qwen-code-skill-wrapper.zip](https://github.com/CampusSkillmarket/skillhub-skills/raw/main/skills/qwen-code-skill-wrapper/qwen-code-skill-wrapper.zip)
+1. 点击下载 [qwen-code-skill-wrapper.zip](https://github.com/CampusSkillmarket/Campus_Skill/raw/main/skills/qwen-code-skill-wrapper/qwen-code-skill-wrapper.zip)
 2. 解压后打开 `SKILL.md`
 3. 复制内容到 AI 助手配置
 
 ### 方式三：克隆整个仓库
 
 ```bash
-git clone https://github.com/CampusSkillmarket/skillhub-skills.git
-cd skillhub-skills/skills/qwen-code-skill-wrapper
+git clone https://github.com/CampusSkillmarket/Campus_Skill.git
+cd Campus_Skill/skills/qwen-code-skill-wrapper
 ```
 
 ## 📁 文件结构
@@ -39,7 +39,7 @@ qwen-code-skill-wrapper/
 ## ⚡ 快速开始
 
 1. **复制 Skill 内容**
-   - 打开 [SKILL.md](https://github.com/CampusSkillmarket/skillhub-skills/blob/main/skills/qwen-code-skill-wrapper/SKILL.md)
+   - 打开 [SKILL.md](https://github.com/CampusSkillmarket/Campus_Skill/blob/main/skills/qwen-code-skill-wrapper/SKILL.md)
    - 全选并复制所有内容
 
 2. **配置到 AI 助手**
@@ -53,8 +53,8 @@ qwen-code-skill-wrapper/
 ## 🔗 相关链接
 
 - [返回总览](../README.md)
-- [查看 SKILL.md](https://github.com/CampusSkillmarket/skillhub-skills/blob/main/skills/qwen-code-skill-wrapper/SKILL.md)
-- [下载 ZIP](https://github.com/CampusSkillmarket/skillhub-skills/raw/main/skills/qwen-code-skill-wrapper/qwen-code-skill-wrapper.zip)
+- [查看 SKILL.md](https://github.com/CampusSkillmarket/Campus_Skill/blob/main/skills/qwen-code-skill-wrapper/SKILL.md)
+- [下载 ZIP](https://github.com/CampusSkillmarket/Campus_Skill/raw/main/skills/qwen-code-skill-wrapper/qwen-code-skill-wrapper.zip)
 
 ## 📄 许可证
 
