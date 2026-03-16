@@ -1,0 +1,30 @@
+{
+  "name": "@skillhub/word-document-writer",
+  "version": "1.0.0",
+  "description": "SkillHub Skill - 📝 Word 文档写作助手",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"SkillHub Skill - No test specified\""
+  },
+  "keywords": [
+    "skillhub",
+    "ai-skill",
+    "ai-assistant",
+    "word-document-writer",
+    "效率"
+  ],
+  "author": "SkillHub",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skillhub/skills"
+  },
+  "homepage": "https://skillhub.com/skills/word-document-writer",
+  "skillhub": {
+    "skillName": "📝 Word 文档写作助手",
+    "category": "效率",
+    "format": "skillhub-standard",
+    "version": "1.0.0"
+  }
+}

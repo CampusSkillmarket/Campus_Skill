@@ -1,0 +1,30 @@
+{
+  "name": "@skillhub/campus-micro-startup",
+  "version": "1.0.0",
+  "description": "SkillHub Skill - 🏫 校内微创业探索助手",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"SkillHub Skill - No test specified\""
+  },
+  "keywords": [
+    "skillhub",
+    "ai-skill",
+    "ai-assistant",
+    "campus-micro-startup",
+    "创业"
+  ],
+  "author": "SkillHub",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skillhub/skills"
+  },
+  "homepage": "https://skillhub.com/skills/campus-micro-startup",
+  "skillhub": {
+    "skillName": "🏫 校内微创业探索助手",
+    "category": "创业",
+    "format": "skillhub-standard",
+    "version": "1.0.0"
+  }
+}

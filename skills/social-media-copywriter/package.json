@@ -1,0 +1,30 @@
+{
+  "name": "@skillhub/social-media-copywriter",
+  "version": "1.0.0",
+  "description": "SkillHub Skill - 社交媒体文案创作专家",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"SkillHub Skill - No test specified\""
+  },
+  "keywords": [
+    "skillhub",
+    "ai-skill",
+    "ai-assistant",
+    "social-media-copywriter",
+    "营销"
+  ],
+  "author": "SkillHub",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skillhub/skills"
+  },
+  "homepage": "https://skillhub.com/skills/social-media-copywriter",
+  "skillhub": {
+    "skillName": "社交媒体文案创作专家",
+    "category": "营销",
+    "format": "skillhub-standard",
+    "version": "1.0.0"
+  }
+}

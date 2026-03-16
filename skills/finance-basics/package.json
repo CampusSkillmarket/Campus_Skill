@@ -1,0 +1,30 @@
+{
+  "name": "@skillhub/finance-basics",
+  "version": "1.0.0",
+  "description": "SkillHub Skill - 💰 基础理财与消费助手",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"SkillHub Skill - No test specified\""
+  },
+  "keywords": [
+    "skillhub",
+    "ai-skill",
+    "ai-assistant",
+    "finance-basics",
+    "财经"
+  ],
+  "author": "SkillHub",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skillhub/skills"
+  },
+  "homepage": "https://skillhub.com/skills/finance-basics",
+  "skillhub": {
+    "skillName": "💰 基础理财与消费助手",
+    "category": "财经",
+    "format": "skillhub-standard",
+    "version": "1.0.0"
+  }
+}

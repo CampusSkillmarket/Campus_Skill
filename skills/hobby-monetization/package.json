@@ -1,0 +1,30 @@
+{
+  "name": "@skillhub/hobby-monetization",
+  "version": "1.0.0",
+  "description": "SkillHub Skill - 🎨 兴趣技能变现助手",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"SkillHub Skill - No test specified\""
+  },
+  "keywords": [
+    "skillhub",
+    "ai-skill",
+    "ai-assistant",
+    "hobby-monetization",
+    "生活"
+  ],
+  "author": "SkillHub",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skillhub/skills"
+  },
+  "homepage": "https://skillhub.com/skills/hobby-monetization",
+  "skillhub": {
+    "skillName": "🎨 兴趣技能变现助手",
+    "category": "生活",
+    "format": "skillhub-standard",
+    "version": "1.0.0"
+  }
+}

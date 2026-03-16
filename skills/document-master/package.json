@@ -1,0 +1,30 @@
+{
+  "name": "@skillhub/document-master",
+  "version": "1.0.0",
+  "description": "SkillHub Skill - 📄 文档处理大师",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"SkillHub Skill - No test specified\""
+  },
+  "keywords": [
+    "skillhub",
+    "ai-skill",
+    "ai-assistant",
+    "document-master",
+    "效率"
+  ],
+  "author": "SkillHub",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skillhub/skills"
+  },
+  "homepage": "https://skillhub.com/skills/document-master",
+  "skillhub": {
+    "skillName": "📄 文档处理大师",
+    "category": "效率",
+    "format": "skillhub-standard",
+    "version": "1.0.0"
+  }
+}

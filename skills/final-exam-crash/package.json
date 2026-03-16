@@ -1,0 +1,30 @@
+{
+  "name": "@skillhub/final-exam-crash",
+  "version": "1.0.0",
+  "description": "SkillHub Skill - 📚 期末突击复习助手",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"SkillHub Skill - No test specified\""
+  },
+  "keywords": [
+    "skillhub",
+    "ai-skill",
+    "ai-assistant",
+    "final-exam-crash",
+    "学习"
+  ],
+  "author": "SkillHub",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skillhub/skills"
+  },
+  "homepage": "https://skillhub.com/skills/final-exam-crash",
+  "skillhub": {
+    "skillName": "📚 期末突击复习助手",
+    "category": "学习",
+    "format": "skillhub-standard",
+    "version": "1.0.0"
+  }
+}

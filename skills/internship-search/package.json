@@ -1,0 +1,30 @@
+{
+  "name": "@skillhub/internship-search",
+  "version": "1.0.0",
+  "description": "SkillHub Skill - 🌱 实习寻找助手",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"SkillHub Skill - No test specified\""
+  },
+  "keywords": [
+    "skillhub",
+    "ai-skill",
+    "ai-assistant",
+    "internship-search",
+    "其他"
+  ],
+  "author": "SkillHub",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skillhub/skills"
+  },
+  "homepage": "https://skillhub.com/skills/internship-search",
+  "skillhub": {
+    "skillName": "🌱 实习寻找助手",
+    "category": "其他",
+    "format": "skillhub-standard",
+    "version": "1.0.0"
+  }
+}

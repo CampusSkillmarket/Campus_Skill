@@ -1,0 +1,30 @@
+{
+  "name": "@skillhub/career-coach",
+  "version": "1.0.0",
+  "description": "SkillHub Skill - 📝 求职面试教练",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"SkillHub Skill - No test specified\""
+  },
+  "keywords": [
+    "skillhub",
+    "ai-skill",
+    "ai-assistant",
+    "career-coach",
+    "求职"
+  ],
+  "author": "SkillHub",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skillhub/skills"
+  },
+  "homepage": "https://skillhub.com/skills/career-coach",
+  "skillhub": {
+    "skillName": "📝 求职面试教练",
+    "category": "求职",
+    "format": "skillhub-standard",
+    "version": "1.0.0"
+  }
+}

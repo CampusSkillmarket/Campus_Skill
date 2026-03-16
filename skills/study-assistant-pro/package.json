@@ -1,0 +1,30 @@
+{
+  "name": "@skillhub/study-assistant-pro",
+  "version": "1.0.0",
+  "description": "SkillHub Skill - 📚 学业助手 Pro",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"SkillHub Skill - No test specified\""
+  },
+  "keywords": [
+    "skillhub",
+    "ai-skill",
+    "ai-assistant",
+    "study-assistant-pro",
+    "学习"
+  ],
+  "author": "SkillHub",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skillhub/skills"
+  },
+  "homepage": "https://skillhub.com/skills/study-assistant-pro",
+  "skillhub": {
+    "skillName": "📚 学业助手 Pro",
+    "category": "学习",
+    "format": "skillhub-standard",
+    "version": "1.0.0"
+  }
+}

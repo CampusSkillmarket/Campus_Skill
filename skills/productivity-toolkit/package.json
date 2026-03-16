@@ -1,0 +1,30 @@
+{
+  "name": "@skillhub/productivity-toolkit",
+  "version": "1.0.0",
+  "description": "SkillHub Skill - 🔧 效率工具集合",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"SkillHub Skill - No test specified\""
+  },
+  "keywords": [
+    "skillhub",
+    "ai-skill",
+    "ai-assistant",
+    "productivity-toolkit",
+    "效率"
+  ],
+  "author": "SkillHub",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skillhub/skills"
+  },
+  "homepage": "https://skillhub.com/skills/productivity-toolkit",
+  "skillhub": {
+    "skillName": "🔧 效率工具集合",
+    "category": "效率",
+    "format": "skillhub-standard",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@skillhub/qwen-code-2-skills",
+  "version": "1.0.0",
+  "description": "SkillHub Skill - Qwen Code Integration Skill",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"SkillHub Skill - No test specified\""
+  },
+  "keywords": [
+    "skillhub",
+    "ai-skill",
+    "ai-assistant",
+    "qwen-code-2-skills",
+    "ai 工具"
+  ],
+  "author": "SkillHub",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skillhub/skills"
+  },
+  "homepage": "https://skillhub.com/skills/qwen-code-2-skills",
+  "skillhub": {
+    "skillName": "Qwen Code Integration Skill",
+    "category": "AI 工具",
+    "format": "skillhub-standard",
+    "version": "1.0.0"
+  }
+}

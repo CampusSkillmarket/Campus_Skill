@@ -1,0 +1,30 @@
+{
+  "name": "@skillhub/idea-generator",
+  "version": "1.0.0",
+  "description": "SkillHub Skill - 💡 创意脑暴伙伴",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"SkillHub Skill - No test specified\""
+  },
+  "keywords": [
+    "skillhub",
+    "ai-skill",
+    "ai-assistant",
+    "idea-generator",
+    "创意"
+  ],
+  "author": "SkillHub",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skillhub/skills"
+  },
+  "homepage": "https://skillhub.com/skills/idea-generator",
+  "skillhub": {
+    "skillName": "💡 创意脑暴伙伴",
+    "category": "创意",
+    "format": "skillhub-standard",
+    "version": "1.0.0"
+  }
+}

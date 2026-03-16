@@ -1,0 +1,30 @@
+{
+  "name": "@skillhub/thesis-assistant",
+  "version": "1.0.0",
+  "description": "SkillHub Skill - 🎓 毕业论文/设计助手",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"SkillHub Skill - No test specified\""
+  },
+  "keywords": [
+    "skillhub",
+    "ai-skill",
+    "ai-assistant",
+    "thesis-assistant",
+    "学习"
+  ],
+  "author": "SkillHub",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skillhub/skills"
+  },
+  "homepage": "https://skillhub.com/skills/thesis-assistant",
+  "skillhub": {
+    "skillName": "🎓 毕业论文/设计助手",
+    "category": "学习",
+    "format": "skillhub-standard",
+    "version": "1.0.0"
+  }
+}

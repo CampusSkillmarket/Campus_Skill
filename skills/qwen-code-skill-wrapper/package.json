@@ -1,0 +1,30 @@
+{
+  "name": "@skillhub/qwen-code-skill-wrapper",
+  "version": "1.0.0",
+  "description": "SkillHub Skill - Qwen Code Skill",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"SkillHub Skill - No test specified\""
+  },
+  "keywords": [
+    "skillhub",
+    "ai-skill",
+    "ai-assistant",
+    "qwen-code-skill-wrapper",
+    "ai 工具"
+  ],
+  "author": "SkillHub",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skillhub/skills"
+  },
+  "homepage": "https://skillhub.com/skills/qwen-code-skill-wrapper",
+  "skillhub": {
+    "skillName": "Qwen Code Skill",
+    "category": "AI 工具",
+    "format": "skillhub-standard",
+    "version": "1.0.0"
+  }
+}

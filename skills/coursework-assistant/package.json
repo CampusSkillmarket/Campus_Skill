@@ -1,0 +1,30 @@
+{
+  "name": "@skillhub/coursework-assistant",
+  "version": "1.0.0",
+  "description": "SkillHub Skill - 📝 课程作业/项目完成助手",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"SkillHub Skill - No test specified\""
+  },
+  "keywords": [
+    "skillhub",
+    "ai-skill",
+    "ai-assistant",
+    "coursework-assistant",
+    "学习"
+  ],
+  "author": "SkillHub",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skillhub/skills"
+  },
+  "homepage": "https://skillhub.com/skills/coursework-assistant",
+  "skillhub": {
+    "skillName": "📝 课程作业/项目完成助手",
+    "category": "学习",
+    "format": "skillhub-standard",
+    "version": "1.0.0"
+  }
+}

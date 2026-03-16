@@ -1,0 +1,30 @@
+{
+  "name": "@skillhub/interview-prep",
+  "version": "1.0.0",
+  "description": "SkillHub Skill - 🎯 面试准备与模拟助手",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"SkillHub Skill - No test specified\""
+  },
+  "keywords": [
+    "skillhub",
+    "ai-skill",
+    "ai-assistant",
+    "interview-prep",
+    "求职"
+  ],
+  "author": "SkillHub",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skillhub/skills"
+  },
+  "homepage": "https://skillhub.com/skills/interview-prep",
+  "skillhub": {
+    "skillName": "🎯 面试准备与模拟助手",
+    "category": "求职",
+    "format": "skillhub-standard",
+    "version": "1.0.0"
+  }
+}

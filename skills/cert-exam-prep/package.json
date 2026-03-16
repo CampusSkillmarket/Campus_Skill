@@ -1,0 +1,30 @@
+{
+  "name": "@skillhub/cert-exam-prep",
+  "version": "1.0.0",
+  "description": "SkillHub Skill - 📜 证书考试备考助手",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"SkillHub Skill - No test specified\""
+  },
+  "keywords": [
+    "skillhub",
+    "ai-skill",
+    "ai-assistant",
+    "cert-exam-prep",
+    "学习"
+  ],
+  "author": "SkillHub",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skillhub/skills"
+  },
+  "homepage": "https://skillhub.com/skills/cert-exam-prep",
+  "skillhub": {
+    "skillName": "📜 证书考试备考助手",
+    "category": "学习",
+    "format": "skillhub-standard",
+    "version": "1.0.0"
+  }
+}

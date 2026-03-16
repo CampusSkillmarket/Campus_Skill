@@ -1,0 +1,30 @@
+{
+  "name": "@skillhub/business-plan-generator-pro",
+  "version": "1.0.0",
+  "description": "SkillHub Skill - 💼 商业计划书生成器",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"SkillHub Skill - No test specified\""
+  },
+  "keywords": [
+    "skillhub",
+    "ai-skill",
+    "ai-assistant",
+    "business-plan-generator-pro",
+    "创业"
+  ],
+  "author": "SkillHub",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skillhub/skills"
+  },
+  "homepage": "https://skillhub.com/skills/business-plan-generator-pro",
+  "skillhub": {
+    "skillName": "💼 商业计划书生成器",
+    "category": "创业",
+    "format": "skillhub-standard",
+    "version": "1.0.0"
+  }
+}

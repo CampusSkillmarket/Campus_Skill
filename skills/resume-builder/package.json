@@ -1,0 +1,30 @@
+{
+  "name": "@skillhub/resume-builder",
+  "version": "1.0.0",
+  "description": "SkillHub Skill - 📄 简历制作与优化助手",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"SkillHub Skill - No test specified\""
+  },
+  "keywords": [
+    "skillhub",
+    "ai-skill",
+    "ai-assistant",
+    "resume-builder",
+    "求职"
+  ],
+  "author": "SkillHub",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skillhub/skills"
+  },
+  "homepage": "https://skillhub.com/skills/resume-builder",
+  "skillhub": {
+    "skillName": "📄 简历制作与优化助手",
+    "category": "求职",
+    "format": "skillhub-standard",
+    "version": "1.0.0"
+  }
+}
